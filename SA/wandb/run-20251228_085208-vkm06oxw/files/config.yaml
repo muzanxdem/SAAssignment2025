@@ -1,0 +1,69 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            ytpswap7chahtjhmmz0oolrc85q70fcu:
+                codePath: SA/SAAssignment2025.py
+                codePathLocal: SAAssignment2025.py
+                cpu_count: 24
+                cpu_count_logical: 32
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1966309933056"
+                        used: "1593606967296"
+                email: mariokazela2@gmail.com
+                executable: /home/user/jupyter/DL-Obi/SAAssignment2025/.venv/bin/python3
+                git:
+                    commit: c1a1f657f6ee4f459e80608c0aa6f4d6e3c0988d
+                    remote: https://github.com/afifhaziq/DL4IDS
+                gpu: NVIDIA GeForce RTX 4070 Ti
+                gpu_count: 2
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 7680
+                      memoryTotal: "12878610432"
+                      name: NVIDIA GeForce RTX 4070 Ti
+                      uuid: GPU-09c3ac65-abc0-b5bb-6c6c-89c5c2957e75
+                    - architecture: Ampere
+                      cudaCores: 6144
+                      memoryTotal: "17171480576"
+                      name: NVIDIA RTX A4000
+                      uuid: GPU-4c738679-d23f-d98f-fc90-4d3f5c03e6d2
+                host: gpu1
+                memory:
+                    total: "67251630080"
+                os: Linux-6.1.0-28-amd64-x86_64-with-glibc2.36
+                program: /home/user/jupyter/DL-Obi/SAAssignment2025/SA/SAAssignment2025.py
+                python: CPython 3.12.3
+                root: /home/user/jupyter/DL-Obi/SAAssignment2025/SA
+                startedAt: "2025-12-28T00:52:08.706853Z"
+                writerId: ytpswap7chahtjhmmz0oolrc85q70fcu
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 1
+                - 16
+            "4": 3.12.3
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+batch_size:
+    value: 128
+learning_rate:
+    value: 0.01
+num_epochs:
+    value: 20
+optimizer:
+    value: AdamW
+scheduler:
+    value: ReduceLROnPlateau
