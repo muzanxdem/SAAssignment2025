@@ -72,7 +72,6 @@ SAAssignment2025/
 │   └── 01_pytorch_workflow_model_0.pth
 │
 ├── helper_functions.py                              # Utility functions
-├── pyproject.toml                                   # Project dependencies
 ├── uv.lock                                          # Dependency lock file
 └── README.md                                        # Project overview
 
@@ -987,7 +986,7 @@ For questions or issues:
 
 ---
 
-**Last Updated:** December 2024  
+**Last Updated:** December 2025  
 **Version:** 1.0  
 **Status:** Production Ready
 
